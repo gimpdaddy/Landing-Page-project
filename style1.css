@@ -1,0 +1,183 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1F2937;
+}
+
+/* HEADER */
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+    font-size: 12px;
+}
+
+.header {
+    color: #F9FAF8;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+}
+
+/* HERO */
+
+.hero-primary-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    font-weight: lighter;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882F6;
+    color: #e5e7eb;
+    border-radius: 3px;
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    width: 125px;
+}
+
+.img-placeholder {
+    background-color: gray;
+    height: 200px;
+    width: 300px;
+    flex: 0 0 auto;
+}
+
+.hero-left-side {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap: 12px
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    gap: 8px;
+    height: 350px;
+}
+
+/* Info */
+
+.information-header-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    /* padding: 40px; */
+}
+
+.info-img{
+    height: 100px;
+    width: 100px;
+    border:3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.info-txt {
+    font-size: 12;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+}
+
+.info-cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 36px;
+
+}
+
+.info {
+    background-color: whitesmoke;
+    /* padding-bottom: 80px; */
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* Quote */
+
+#quote-txt, #quote-author {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+#quote-txt {
+    font-style: italic;
+    font-weight: light;
+}
+
+#quote-author {
+    font-weight: bold;
+    text-align: end;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 80px 100px;
+    /* height: 350px; */
+}
+
+/* ACTION */
+
+.action {
+    background-color: whitesmoke;
+    padding: 40px 80px;
+}
+
+#sign-up-box {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.sign-up-heading, .sign-up-txt {
+    color: whitesmoke;
+}
+
+.sign-up-heading {
+    font-weight: bolder;
+}
+
+.sign-up-txt {
+    font-weight: light;
+}
+
+/* FOOTER */
+
+.footer {
+    color: whitesmoke;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    font-weight: light;
+}
