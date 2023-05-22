@@ -1,15 +1,19 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .header {
     color: #F9FAF8;
     font-size: 24px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     size: 72px;
+    /* padding: 16px; */
 }
 
 .list-container {
@@ -30,23 +34,36 @@ a {
 
 .pageheading {
     display: flex;
-    margin: 32px;
+    justify-content: center;
+    gap: 32px;
+    padding: 64px;
+}
+
+.pageheading-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .main-text {
     font-size: 48px;
     font-weight: bolder;
-    color: #f9faf8
+    color: #f9faf8;
+    
 }
 
 .secondary-text {
     font-size: 18px;
-    color: #E5E7EB; 
+    color: #E5E7EB;
+     
 }
 
 button {
     background-color: #3882f6;
-    color: #E5E7EB
+    color: #E5E7EB;
+    padding: 6px 12px;
+    border-radius: 8px;
+    border: 0px;
 }
 
 .temp-img {
@@ -59,6 +76,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 60vh;
 }
 
 .information-header-text {
@@ -92,4 +110,45 @@ button {
     font-size: 36px;
     font-weight: bold;
     text-align: end;
+}
+
+.pagesignup {
+    background-color: whitesmoke;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+.signupbackground {
+    background-color: #3882F6;
+    padding: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 32px;
+}
+
+.signuptextcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.signuptext1 {
+    font-style: bold;
+    font-size: 18px; 
+}
+
+.signuptext2 {
+    font-size: 12px; 
+}
+
+.footer {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 14px;
 }
